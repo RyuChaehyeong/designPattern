@@ -1,4 +1,4 @@
-package 입출금내역분석기;
+package transaction;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
