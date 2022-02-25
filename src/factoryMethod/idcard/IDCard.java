@@ -19,4 +19,5 @@ public class IDCard extends Product {
     public String getOwner() {
         return owner;
     }
+
 }

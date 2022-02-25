@@ -23,4 +23,5 @@ public class IDCardFactory extends Factory {
     public List getOwners() {
         return owners;
     }
+
 }
