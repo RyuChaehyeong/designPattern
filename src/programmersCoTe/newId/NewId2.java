@@ -1,4 +1,4 @@
-package programmersCoTe;
+package programmersCoTe.newId;
 
 class NewId2 {
     public String solution(String new_id) {

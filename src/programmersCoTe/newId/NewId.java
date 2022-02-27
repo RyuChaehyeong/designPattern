@@ -1,4 +1,4 @@
-package programmersCoTe;
+package programmersCoTe.newId;
 
 class NewId {
 
