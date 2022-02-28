@@ -3,7 +3,7 @@ package programmersCoTe.warnRes;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class WarnRes {
+public class ReportingResult {
 
     public int[] solution(String[] id_list, String[] report, int k) {
 
