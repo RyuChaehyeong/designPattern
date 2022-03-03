@@ -20,23 +20,23 @@ public class Race {
     public static String solution2(String[] participant, String[] completion) {
 
         String answer = "";
+
         HashMap<String, Integer> map = new HashMap<>();
         for (String parti : participant) {
             map.put(parti, map.getOrDefault(parti, 0) + 1);
         }
-        for (String compl : completion) {
-            map.put(compl, map.get(compl) - 1);
+        for (String cmpl : completion) {
+            map.put(cmpl, map.get(cmpl) - 1);
         }
 
         Iterator<Map.Entry<String, Integer>> iterator = map.entrySet().iterator();
-
         while (iterator.hasNext()) {
             Map.Entry<String, Integer> entry = iterator.next();
             if (entry.getValue() != 0) {
                 answer = entry.getKey();
-                break;
             }
         }
+
 
         return answer;
     }
